@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 
     # Initialize a Random Forest classifier with 100 trees
-    forest = RandomForestClassifier(n_estimators = 100)
+    forest = RandomForestClassifier(n_estimators = 200)
 
     # Fit the forest to the training set, using the bag of words as
     # features and the sentiment labels as the response variable
